@@ -1,14 +1,13 @@
-# mmPlayer
+# MMPlayer
 
-> mmPlayer 是由茂茂开源的一款在线音乐播放器，具有音乐搜索、播放、歌词显示、播放历史、查看歌曲评论、网易云用户歌单播放同步等功能
+> MMPlayer 是由茂茂开源的一款在线音乐播放器，具有音乐搜索、播放、歌词显示、播放历史、查看歌曲评论、网易云用户歌单播放同步等功能
 
 模仿 QQ 音乐网页版界面，采用 `flexbox` 和 `position` 布局；<br />
 mmPlayer 虽然是响应式，但主要以 PC 端为主，移动端只做相应适配；<br />
 只做主流浏览器兼容（对 IE 说拜拜，想想以前做项目还要兼容 IE7 ，都是泪啊！！！）
 
-- [在线演示地址](https://netease-music.fe-mm.com/)
 - [React 移动端版本（高仿网易云音乐）](https://github.com/maomao1996/react-music)
-- [交流 QQ 群：529940193](http://shang.qq.com/wpa/qunwpa?idkey=f8be1b627a89108ccfda9308720d2a4d0eb3306f253c5d3e8d58452e20b91129) 本群不解答部署相关问题，如有部署问题请看[关于项目线上部署](#关于项目线上部署)
+- 部署问题请看[关于项目线上部署](#关于项目线上部署)
 - 本播放器由 **[茂茂](https://github.com/maomao1996) 开发**，您可以随意修改、使用、转载。但**使用或转载时请务必保留出处（控制台的注释信息）**！！！
 
 ## 免责声明
@@ -96,7 +95,7 @@ node app.js
 - 其他：[在宝塔面板部署 mmPlayer](https://github.com/maomao1996/Blog/issues/1)（不喜欢写文，可能有点烂不要介意哈）
 - 最后：本人已和谷歌、百度达成合作了，如果还有啥不懂的，以后可以直接谷歌、百度
 
-#### Vercel 部署
+#### Vercel 部署（极力推荐）
 
 1. `fork` 此项目
 2. 在 [Vercel](https://vercel.com) 官网点击 New Project
@@ -485,13 +484,6 @@ PC 端界面自我感觉还行， 就是移动端界面总觉得怪怪的，奈�
 
 </details>
 
-## 数据统计
-
-因为百度统计现在数据存储时长默认为 1 年，造成前几年的数据都丢了（虽说没啥用，但是也是本作品成长的历史），所以在 [github](https://github.com/maomao1996/picture/tree/main/mmPlayer/stats) 保存下每年的累计访问
-
-> 2022 年累计访问
-
-![2022](https://cdn.jsdelivr.net/gh/maomao1996/picture/mmPlayer/stats/2022.png)
 
 ## 其他说明
 
